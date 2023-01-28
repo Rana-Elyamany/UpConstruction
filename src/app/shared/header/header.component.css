@@ -1,0 +1,35 @@
+#header .logo {
+    margin-left: 5px;
+    padding-left: 5px;
+}
+li{
+    margin-left: 3px;
+}
+.active{
+    color: rgb(223, 40, 4) !important;
+}
+@media (max-width:750px) {
+    .active{
+        color: rgb(193, 32, 0) !important;
+    }
+    #header{
+        background-color: rgba(255, 255, 255, 0.662);
+    }
+    .navbar a{
+        padding: 7px 15px 7px 15px;
+    }
+    .getstarted{
+        margin-left: 0;
+    }
+    .navbar-collapse{
+        background-color: rgba(16, 63, 124, 0.671);
+        border-radius: 20px !important;
+    }
+    li a{
+        color: rgb(255, 255, 255);
+    }
+    .dropdown-menu li a{
+        color: rgb(11, 4, 52);
+    }
+}
+

@@ -1,0 +1,28 @@
+<div class="container my-5 pt-5">
+    <div class="card">
+        <!-- <h6>{{message}}</h6> -->
+        <div class="card-body">
+            <div class="form-group">
+                <label for="">Customer Name</label>
+                <input type="text" class="form-control" [(ngModel)]="customer.name">
+            </div>
+            <div class="form-group">
+                <label for="">Customer Phone</label>
+                <input type="text" class="form-control" [(ngModel)]="customer.phone">
+            </div>
+            <div class="form-group">
+                <label for="">Customer Age</label>
+                <input type="number" class="form-control"[(ngModel)]="customer.age">
+            </div>
+            <div class="form-group">
+                <label for="">Customer City</label>
+                <input type="text" class="form-control" [(ngModel)]="customer.city">
+            </div>
+            <div class="form-group">
+                <label for="">Customer Image Url</label>
+                <input type="url" class="form-control"[(ngModel)]="customer.imgUrl">
+            </div>
+            <button (click)="edit()" class="btn"> confirm edit</button>
+        </div>
+    </div>
+</div>

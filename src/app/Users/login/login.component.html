@@ -1,0 +1,30 @@
+<div class="bg">
+    <div class="bgo ">
+        <div class="container py-5">
+            <h1 class="text-center" data-aos="zoom-in">LogIn Page</h1>
+            <div class="card" data-aos="zoom-in">
+                <div class="card-body">
+                    <form action="" #formLogin="ngForm">
+                        <div class="form-group">
+                            <label for="">User name <span class="text-danger">{{errorlogin}}</span></label>
+                            <input type="text" class="form-control" [(ngModel)]="name" required minlength="3" maxlength="20" #UserName="ngModel" name="name">
+                            <div class="alert alert-danger" *ngIf="UserName.touched && UserName.invalid">                    
+                                Please Enter Valid Name
+                            </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password <span class="text-danger">{{errorlogin}}</span></label>
+                                <input type="password" class="form-control" [(ngModel)]="password" required minlength="5" maxlength="15" #UserPass="ngModel" name="pass">
+                                <div class="alert alert-danger" *ngIf="UserPass.touched && UserPass.invalid">                    
+                                    Please Enter Valid Password
+                                </div>
+                            </div>
+                            <div class="form-group w-25 m-auto">
+                                <button [disabled]="formLogin.invalid" class="w-100 text-center mt-5" (click)="LogIn()">LogIn</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>

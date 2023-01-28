@@ -1,0 +1,30 @@
+<section class="section-bg">
+    <div class="container my-5 pt-5">
+        <div class="card" data-aos="zoom-in">
+            <!-- <h6>{{message}}</h6> -->
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="">Employee Name</label>
+                    <input type="text" class="form-control" [(ngModel)]="employee.name">
+                </div>
+                <div class="form-group">
+                    <label for="">Employee Phone</label>
+                    <input type="text" class="form-control" [(ngModel)]="employee.phone">
+                </div>
+                <div class="form-group">
+                    <label for="">Employee Age</label>
+                    <input type="number" class="form-control"[(ngModel)]="employee.age">
+                </div>
+                <div class="form-group">
+                    <label for="">Employee department</label>
+                    <input type="text" class="form-control" [(ngModel)]="employee.department">
+                </div>
+                <div class="form-group">
+                    <label for="">Employee Image Url</label>
+                    <input type="url" class="form-control"[(ngModel)]="employee.imgUrl">
+                </div>
+                <button (click)="edit()" class="btn btn-info"> confirm edit</button>
+            </div>
+        </div>
+    </div>
+</section>

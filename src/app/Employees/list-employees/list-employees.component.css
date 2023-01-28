@@ -1,0 +1,78 @@
+.fa-ellipsis{
+    color: rgb(0, 71, 169) !important;
+}
+.fa-ellipsis:hover{
+    color: blue !important;
+}
+/* body{
+    background-image: url(../../../assets/img/construction-2.jpg);
+} */
+
+.dropdown-menu{
+    min-width: 10px;
+}
+i{
+    font-size: 25px;
+}
+table thead tr th{
+    color: rgb(237,80,46) !important;
+}
+.card{
+    box-shadow: 5px 5px 20px  rgb(84, 108, 139) !important;
+    /* padding: 10px; */
+    margin: 10px 5px;
+    line-height: 45px;
+    border-radius: 15px;
+    color: rgb(7,21,39);
+    height: 300px;
+    background-size: 100% 100%;
+   padding-left: 5;
+
+}
+.bg{
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0px;
+    left:0;
+    padding: 10px;
+    /* opacity: 0; */
+    width:100%;
+    height: 60%;
+    background: linear-gradient(0deg, rgba(11, 35, 65, 0.689) 0%, rgba(11, 35, 65, 0.58) 20%, rgba(0, 212, 255, 0) 100%);
+
+    transition: all 1s !important;
+
+}
+/* .bg:hover{
+    transition: all 1s !important;
+    opacity: 1;
+
+} */
+.bg .dropdown{
+    opacity: 1;
+}
+.name{
+    animation-name: "zoomInUp";
+    animation-delay: 2s;
+    font-size: 20px;
+    padding-left: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: white;
+}
+.department{
+    padding-left: 10px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    color: white;
+
+}
+.row{
+    margin-right: 0px;
+}
+.card i{
+    color: rgb(0, 0, 109);
+    margin-left: 5px;
+}

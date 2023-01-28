@@ -1,0 +1,50 @@
+<section class="section-bg">
+    <div class="container my-5 pt-5 section-bg">
+        <div class="card" data-aos="zoom-in">
+            <div class="card-body">
+                <form action="" #formManager="ngForm">
+                    <div class="form-group">
+                        <label for="">Manager Name</label>
+                        <input type="text" class="form-control" [(ngModel)]="manager.name"   required minlength="4" maxlength="20" #managerName="ngModel" name="name">
+                        <div class="alert alert-danger" *ngIf="managerName.invalid && managerName.touched">
+                            Please Enter Valid Name
+                        </div>
+                        
+                    </div>
+                    <div class="form-group">
+                        <label for="">department</label>
+                        <input required type="url" class="form-control"[(ngModel)]="manager.department" #managerDepartment="ngModel" name="department">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Manager Phone</label>
+                        <input required type="text" class="form-control" [(ngModel)]="manager.phone" #managerPhone="ngModel" name="phone" required minlength="12" maxlength="12">
+                        <div class="alert alert-danger" *ngIf="managerPhone.invalid && managerPhone.touched">
+                            Please Enter Valid phone number
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Manager Age</label>
+                        <input required type="number" class="form-control"[(ngModel)]="manager.age" #managerAge="ngModel" name="age" minlength="2" maxlength="2" >
+                        <div class="alert alert-danger" *ngIf="managerAge.invalid && managerAge.touched">
+                            You must Enter right Age 
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Manager Image Url</label>
+                        <input required type="url" class="form-control"[(ngModel)]="manager.imgUrl" #managerImage="ngModel" name="img">
+                        <div class="alert alert-danger" *ngIf="managerImage.invalid && managerImage.touched">
+                            This Field Is required
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">I agree Terms and Conditions</label>
+                        <input required type="checkbox" ngModel #agree="ngModel" name="agree">
+                    </div>
+                    <div>
+                        <button  [disabled]="formManager.invalid" (click)="onSubmit()" class="btn btn-info">Submit Data</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

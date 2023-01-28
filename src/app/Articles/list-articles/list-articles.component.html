@@ -1,0 +1,42 @@
+<div class="bg">
+    <div class="bgo">
+        <div class="container my-5 pt-5">
+            <div class="card " data-aos="zoom-in">
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scoop="col">#</th>
+                                <th scoop="col">ID</th>
+                                <th scope="col">Type</th>
+                                
+                                <th scope="col">Price </th>
+                                <th scoop="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let data of articles;let i =index">
+                                <th>{{i+1}}</th>
+                                <th>{{data.id}}</th>
+                                
+                                <th>{{data.type}}</th>
+                                <th>{{data.price}}</th>
+                                <th>
+                                    <a class="dropdown-item text-info" routerLink="/showArticle/{{data.id}}"><i class="fa-solid fa-eye"></i></a>
+        
+                                    <!-- <div class="dropdown">
+                                        <a  type="button" data-bs-toggle="dropdown" aria-expanded="false "style="font-size:25px">
+                                            <i class="fa-solid fa-ellipsis text-info"></i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                        </ul>
+                                    </div> -->
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

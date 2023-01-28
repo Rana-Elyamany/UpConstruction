@@ -1,0 +1,29 @@
+<section class="section-bg">
+<div class="container my-5 pt-5 ">
+    <div class="card " data-aos="zoom-in">
+        <div class="card-body">
+            <div class="form-group">
+                <label for="">Manager Name</label>
+                <input type="text" class="form-control" [(ngModel)]="manager.name">
+            </div>
+            <div class="form-group">
+                <label for="">Manager Phone</label>
+                <input type="text" class="form-control" [(ngModel)]="manager.phone">
+            </div>
+            <div class="form-group">
+                <label for="">Manager Age</label>
+                <input type="number" class="form-control"[(ngModel)]="manager.age">
+            </div>
+            <div class="form-group">
+                <label for="">Manager department</label>
+                <input type="text" class="form-control" [(ngModel)]="manager.department">
+            </div>
+            <div class="form-group">
+                <label for="">Manager Image Url</label>
+                <input type="url" class="form-control" [(ngModel)]="manager.imgUrl">
+            </div>
+            <button (click)="edit()" class="btn "> confirm edit</button>
+        </div>
+    </div>
+</div>
+</section>

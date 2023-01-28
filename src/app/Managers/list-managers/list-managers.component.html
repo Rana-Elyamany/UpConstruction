@@ -1,0 +1,59 @@
+<section class="section-bg">
+    <div class="container pt-5" data-aos="fade-up">
+        <div class="section-title">
+            <h2>Managers</h2>
+            <p>Check our Managers</p>
+        </div>
+        <div class="row d-flex justify-content-between"data-wow-delay="0.1s">
+            <div class="card col-xl-3 col-sm-4 col-xm-4 col-md-4" *ngFor="let data of managers;let i =index" style="background-image: url({{data.imgUrl}});background-size: 100% 100%;" data-aos="zoom-in" data-aos-delay="200">
+                            <a class="text-danger" (click)="onDelete(data.id)"><i class="fa-solid fa-trash-can"></i></a>
+                            <a class="text-info" routerLink="/showManager/{{data.id}}"><i class="fa-solid fa-eye"></i></a>
+                            <a class="text-primary" routerLink="/updateManager/{{data.id}}"><i class="fa-solid fa-pen-to-square"></i></a>
+                <div class="bg d-flex flex-wrap" >                                        
+                    <h6 class="name" data-aos="zoomInUp" data-aos-delay="200"> <b>Name: </b>{{data.name}}</h6>
+                    <h6 class="department" data-aos="zoomInUp" data-aos-delay="400"><b>Department: </b>{{data.department}}</h6>                    
+                </div>
+            </div>     
+        </div>
+        
+        <!-- <div class="card">
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scoop="col">#</th>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">department</th>
+                            <th scoop="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let data of managers;let i =index">
+                            <th>{{i+1}}</th>
+                            <th>{{data.id}}</th>
+                            <th>{{data.name}}</th>
+                            <th>{{data.department}}</th>
+                            <th>
+                            
+                                <div class="dropdown">
+                                    <a  type="button" data-bs-toggle="dropdown" aria-expanded="false "style="font-size:25px">
+                                        <i class="fa-solid fa-ellipsis text-info"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-danger" (click)="onDelete(data.id)"><i class="fa-solid fa-trash-can"></i></a></li>
+                                    <li><a class="dropdown-item text-info" routerLink="/showManager/{{data.id}}"><i class="fa-solid fa-eye"></i></a></li>
+                                    <li><a class="dropdown-item text-primary" routerLink="/updateManager/{{data.id}}"><i class="fa-solid fa-pen-to-square"></i></a></li>
+                                    </ul>
+                                </div>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div> 
+        </div>-->
+        
+    </div>
+</section>
+        
+

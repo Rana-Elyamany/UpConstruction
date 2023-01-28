@@ -1,0 +1,16 @@
+<div class="container col-md-4 my-5 py-5 ">
+    <div class="row border d-flex justify-content-between ">
+       
+             <div class=" col-xl-6">
+                <img [src]="customer.imgUrl" alt="" class="w-100 ">
+             </div>
+             <div class="card-body col-xl-2 py-5" style="font-size: 25px;">
+                <h6><b>Name</b> : {{customer.name}}</h6>
+                <h6><b>Phone</b> : {{customer.phone}}</h6>
+                <h6><b>Age</b> : {{customer.age}}</h6>
+                <h6><b>City</b> : {{customer.city}}</h6>
+            </div>
+            <a class="btn " routerLink="/listCustomers">Go Back</a>
+    </div>
+    
+</div>

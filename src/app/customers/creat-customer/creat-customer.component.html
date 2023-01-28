@@ -1,0 +1,51 @@
+<section class="section-bg">
+    <div class="container my-5 pt-5">
+        <div class="card" data-aos="zoom-in">
+    
+            <div class="card-body">
+                <form action="" #formEmployee="ngForm">
+                <div class="form-group">
+                    <label for="">Customer Name</label>
+                    <input type="text" class="form-control" [(ngModel)]="customer.name"   required minlength="4" maxlength="20" #customerName="ngModel" name="name">
+                    <div class="alert alert-danger" *ngIf="customerName.invalid && customerName.touched">
+                        Please Enter Valid Name
+                    </div>
+                    
+                </div>
+                <div class="form-group">
+                    <label for="">Customer City</label>
+                    <input required type="url" class="form-control"[(ngModel)]="customer.city" #customerDepartment="ngModel" name="department">
+                </div>
+                <div class="form-group">
+                    <label for="">Customer Phone</label>
+                    <input required type="text" class="form-control" [(ngModel)]="customer.phone" #customerPhone="ngModel" name="phone" required minlength="12" maxlength="12">
+                    <div class="alert alert-danger" *ngIf="customerPhone.invalid && customerPhone.touched">
+                        Please Enter Valid phone number
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Customer Age</label>
+                    <input required type="number" class="form-control"[(ngModel)]="customer.age" #customerAge="ngModel" name="age" minlength="2" maxlength="2" >
+                    <div class="alert alert-danger" *ngIf="customerAge.invalid && customerAge.touched">
+                        You must Enter right Age 
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Customer Image Url</label>
+                    <input required type="url" class="form-control"[(ngModel)]="customer.imgUrl" #customerImage="ngModel" name="img">
+                    <div class="alert alert-danger" *ngIf="customerImage.invalid && customerImage.touched">
+                        This Field Is required
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">I agree Terms and Conditions</label>
+                    <input required type="checkbox" ngModel #agree="ngModel" name="agree">
+                </div>
+                <div>
+                    <button  [disabled]="formEmployee.invalid" (click)="onSubmit()" class="btn btn-info">Add Data</button>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+</section>

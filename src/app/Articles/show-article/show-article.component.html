@@ -1,0 +1,14 @@
+
+      <div class="container col-md-4 my-5 py-5 ">
+         <div class="row border d-flex justify-content-between ">
+             <div class=" col-xl-6">
+                <img [src]="article.imgUrl" alt="" class="w-100 ">
+             </div>
+             <div class="card-body col-xl-2 py-5" style="font-size: 25px;">
+                <h6><b>Type</b> : {{article.type}}</h6>
+                <h6><b>Code</b> : {{article.code}}</h6>
+                <h6><b>Price</b> : {{article.price}}</h6>
+            </div>
+            <a class="btn " routerLink="/listArticles">Go Back</a>
+         </div>  
+      </div>

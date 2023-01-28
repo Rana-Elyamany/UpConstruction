@@ -1,0 +1,18 @@
+<section class="section-bg">
+    <div class="container col-md-4 my-5 py-5 ">
+        <div class="row border d-flex justify-content-between " data-aos="zoom-in">
+           
+                 <div class=" col-xl-6">
+                    <img [src]="manager.imgUrl" alt="" class="w-100 ">
+                 </div>
+                 <div class="card-body col-xl-2 py-5" style="font-size: 25px;">
+                    <h6><b>Name</b> : {{manager.name}}</h6>
+                    <h6><b>Phone</b> : {{manager.phone}}</h6>
+                    <h6><b>Age</b> : {{manager.age}}</h6>
+                    <h6><b>department</b> : {{manager.department}}</h6>
+                </div>
+                <a class="btn" routerLink="/listManagers">Go Back</a>
+        </div>
+        
+    </div>
+</section>
