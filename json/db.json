@@ -1,0 +1,210 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "ahmed",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "rana",
+      "password": "567878"
+    },
+    {
+      "id": 3
+    },
+    {
+      "name": "rana mohamed",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "reem mohamed",
+      "password": "1236548",
+      "id": 5
+    },
+    {
+      "name": "mona",
+      "password": "01026799",
+      "id": 6
+    },
+    {
+      "name": "zien",
+      "password": "1234567",
+      "id": 7
+    },
+    {
+      "name": "amany",
+      "password": "874412",
+      "id": 8
+    },
+    {
+      "name": "Amira",
+      "password": "58897",
+      "id": 9
+    }
+  ],
+  "Employees": [
+    {
+      "id": 800111842,
+      "name": "rana",
+      "age": 25,
+      "department": "markting",
+      "phone": "0104887665",
+      "imgUrl": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 800111843,
+      "name": "zein",
+      "age": 32,
+      "department": "procurments",
+      "phone": "0136654228",
+      "imgUrl": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 800111844,
+      "name": "amr",
+      "age": 35,
+      "department": "Finance",
+      "phone": "0155785456",
+      "imgUrl": "https://media.istockphoto.com/id/1196391445/photo/portrait-of-a-happy-young-man-of-asian-ethnic-descent.jpg?s=612x612&w=0&k=20&c=FTBzIOLoMfuenRMcQKkvpkiDg7nD8ZHmjhtYSZvskfE="
+    },
+    {
+      "id": 800111845,
+      "name": "reem",
+      "age": 27,
+      "department": "markting",
+      "phone": "0155785456",
+      "imgUrl": "https://i0.wp.com/srkheadshotday.com/wp-content/uploads/Chris_Kernes_Headshot_17E9948_Crop32.jpg?ssl=1"
+    },
+    {
+      "name": "Asmaa",
+      "department": "sales",
+      "phone": "015448866123",
+      "age": 29,
+      "imgUrl": "https://t4.ftcdn.net/jpg/04/25/65/97/360_F_425659755_5BaLdNbbCtQbbiz1JNFBikshfiCWI5NE.jpg",
+      "id": 800111846
+    },
+    {
+      "name": "ali",
+      "department": "markting",
+      "phone": "016998452322",
+      "age": 36,
+      "imgUrl": "https://images.unsplash.com/photo-1623366302587-b38b1ddaefd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29uJTIwd2hpdGUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+      "id": 800111847
+    }
+  ],
+  "managers": [
+    {
+      "id": 800112841,
+      "name": "osama",
+      "age": 55,
+      "phone": "0106649978",
+      "department": "leadership",
+      "imgUrl": "https://st2.depositphotos.com/3143277/8644/i/450/depositphotos_86446164-stock-photo-business-man-in-office.jpg"
+    },
+    {
+      "id": 800112842,
+      "name": "hesham",
+      "age": 34,
+      "phone": "0126649972",
+      "department": "sales",
+      "imgUrl": "https://img.freepik.com/premium-photo/handsome-young-man-white-background_23-2148222619.jpg?w=360"
+    },
+    {
+      "id": 800112843,
+      "name": "yasser",
+      "age": 38,
+      "phone": "0155842372",
+      "department": "Finance",
+      "imgUrl": "https://media.istockphoto.com/id/1136449639/video/the-man-laughing-on-the-white-background-slow-motion.jpg?s=640x640&k=20&c=jCivJBgTODPt57y3ESNnasT4Dc8z2Semme4VmNK2EeM="
+    },
+    {
+      "id": 800112844,
+      "name": "tarek",
+      "age": 33,
+      "phone": "0115842372",
+      "department": "procurments",
+      "imgUrl": "https://t4.ftcdn.net/jpg/02/85/98/31/360_F_285983167_OTSjTSeRhqJ7b4TPxlQ80mC9zTiDCzMQ.jpg"
+    },
+    {
+      "id": 800112845,
+      "name": "yasser",
+      "age": 38,
+      "phone": "0125842372",
+      "department": "markting",
+      "imgUrl": "https://t4.ftcdn.net/jpg/02/44/80/33/360_F_244803369_cNviClISSSUV5FGcYsJR9anLrqiRrHVK.jpg"
+    },
+    {
+      "name": "Ayman Omar",
+      "department": "Prouduction",
+      "phone": "014447736588",
+      "age": 45,
+      "imgUrl": "https://img.freepik.com/premium-photo/front-view-happy-man-standing-against-white-background_23-2148043782.jpg?w=2000",
+      "id": 800112846
+    }
+  ],
+  "Customers": [
+    {
+      "id": 700111741,
+      "name": "hesham mohamed",
+      "age": 33,
+      "phone": "014668521315",
+      "city": "Cairo",
+      "imgUrl": "https://media.istockphoto.com/id/1200677760/photo/portrait-of-handsome-smiling-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=g_ZmKDpK9VEEzWw4vJ6O577ENGLTOcrvYeiLxi8mVuo="
+    },
+    {
+      "id": 700111742,
+      "name": "mahmoud tarek",
+      "age": 29,
+      "phone": "013898521015",
+      "city": "Mansoura",
+      "imgUrl": "https://media.istockphoto.com/id/1200677760/photo/portrait-of-handsome-smiling-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=g_ZmKDpK9VEEzWw4vJ6O577ENGLTOcrvYeiLxi8mVuo="
+    },
+    {
+      "id": 700111743,
+      "name": "mai ahmed",
+      "age": 35,
+      "phone": "01056987015",
+      "city": "Alex",
+      "imgUrl": "https://media.istockphoto.com/id/1200677760/photo/portrait-of-handsome-smiling-young-man-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=g_ZmKDpK9VEEzWw4vJ6O577ENGLTOcrvYeiLxi8mVuo="
+    }
+  ],
+  "Articles": [
+    {
+      "id": 600111641,
+      "type": "bricks",
+      "code": "A01",
+      "price": "500$",
+      "imgUrl": "https://d2pyicwmjx3wii.cloudfront.net/s/603786c78aba0935e3ee6a6c/60812759a87165229097dca1/webp/build-it-store-sub-collections-bricks-blocks-paving-1258x320.jpg"
+    },
+    {
+      "id": 600111642,
+      "type": "wood",
+      "code": "A02",
+      "price": "300$",
+      "imgUrl": "https://www.manuchar.com/sites/default/files/styles/pg_list_item/public/2021-12/wood_lumber_small.png?h=817c7967&itok=NbmV-5ZW"
+    },
+    {
+      "id": 600111643,
+      "type": "concerete",
+      "code": "A03",
+      "price": "700$",
+      "imgUrl": "https://www.iconic.co.ug/wp-content/uploads/2021/01/iConic-8x8x16-Hollow-Block-.jpeg"
+    },
+    {
+      "id": 600111644,
+      "type": "cement",
+      "code": "A04",
+      "price": "600$",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScnJKwcbUunZUTx6t0X_nGjgRwuFsZvTMUFPquYulyc1qCHwaNRNmPPamVfLJfagiAU2M&usqp=CAU"
+    },
+    {
+      "id": 600111645,
+      "type": "iron",
+      "code": "A05",
+      "price": "750$",
+      "imgUrl": "https://investingnews.com/media-library/iron-round-bars.jpg?id=31174416&width=1200&height=800&quality=85&coordinates=0%2C0%2C0%2C1"
+    }
+  ]
+}
